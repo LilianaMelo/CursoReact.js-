@@ -1,0 +1,29 @@
+.CreateTodoButton{
+    background-color: #61dafa; /* Color de fondo */
+    box-shadow: 0px 5px 25px rgba(97, 218, 250, 0.5); /* Sombra de la caja */
+    border: none; /* borde */
+    border-radius: 40%; /* redondear los bordes de la cajas */
+    cursor: pointer;
+    font-size: 40px; /* tamaño de la fuente*/
+    position: fixed; /* posición ---- fixed: fijado*/
+    bottom: 24px; /* posición especifica de un elemento // determina la distancia entre el borde inferior del elemento y el borde inferior de su bloque contenedor. */
+    right: 24px; /* derecho */
+    font-weight: bold; /* peso de la fuente */
+    color: #FAFAFA; /* color del texto + */
+    display: grid; /* pantalla de la fuente, flexible para alterar sus dimensiones // grid: cuadrícula. */
+
+
+
+    align-items: flex-start; /* alinear elementos. */
+    height: 54px; /* altura. */
+    width: 54px;
+
+    transform: rotate(0);
+    transition: .3s ease;
+
+    z-index: 1; /*muestra elboton por encima de los demás elementos*/
+}
+/* animación */
+.CreateTodoButton:hover {
+    transform: rotate(224deg);
+}

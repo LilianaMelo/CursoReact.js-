@@ -1,0 +1,23 @@
+ .EmptyTodos {
+    background-color: #c0e4f8; 
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px; /* margen superior// cuadro de fondo del texto o tarea */
+    border-radius: 9px; /* esquinas de la caja  */
+
+    margin-left: 35px; /* sombra de la caja izq  */
+    margin-right: 35px; /* sombra de la caja derecha */
+    
+    /* box-shadow: 0px 5px 50px rgba(32, 35, 41, 0.15);  sombra de la caja  */
+    
+}
+
+.Createtodotext {
+    color: #1E1E1F; 
+    position: relative;
+    font-size: 20px;
+    justify-content: center;
+}
+

@@ -1,0 +1,74 @@
+form {
+  width: 90%;
+  max-width: 300px;
+  background-color: #365386;;
+  padding: 33px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 11px;
+}
+
+label {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 26px;
+  color: #ffffff;
+}
+
+textarea {
+  background-color: #c3e1f0;
+  border: 2px solid #3e5481;
+  border-radius: 8px;
+  box-shadow: 0px 5px 50px rgba(32, 35, 41, 0.25);
+  color: #1E1E1F;/* color de la letra del boton*/
+  font-size: 18px;
+  text-align: center;
+  padding: 12px;
+  height: 96px;
+  width: calc(100% - 25px);
+}
+
+textarea::placeholder {
+  color: #7c7c7c; /* Color de texto del agregar. */
+  font-weight: 400;
+  font-family: 'Arial,Sans-serif';
+}
+
+textarea:focus {
+  outline-color: #61DAFA; /* Se resalta el borde cuando el curso esta sobre el cuadro. */
+}
+
+.TodoForm-buttonContainer {
+  margin-top: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.TodoForm-button {
+  cursor: pointer;
+  display: inline-block;
+  font-size: 18px;
+  color: #202329;  
+  font-weight: 400;
+  width: 120px; /* ancho de los botones */
+  height: 48px; /* altura de los botones */
+  border-radius: 4px; /* esquinas de los botones */
+  border: none;
+  font-family: 'Arial,Sans-serif';
+}
+
+.TodoForm-button-add {
+  background-color: #61DAFA;
+  box-shadow: 0px 5px 25px rgba(97, 218, 250, 0.5);  
+}
+
+.TodoForm-button-cancel {
+  background: transparent; 
+  background-color: #eb4536;
+  box-shadow: 0px 5px 25px rgba(247, 60, 60, 0.5); 
+}

@@ -1,0 +1,60 @@
+.TodoItem{
+    background-color: #d1edfa; 
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 35px; /* sombra de la caja izq  */
+    margin-right: 35px; /* sombra de la caja derecha */
+    margin-top: 24px; /* margen superior// cuadro de fondo del texto o tarea */
+    box-shadow: 0px 5px 50px rgba(32, 35, 41, 0.15); /* sombra de la caja  */
+    border-radius: 9px; /* esquinas de la caja  */
+}
+
+.TodoItem-p {
+    color: #1E1E1F; 
+    margin: 24px 0 24px 24px;
+    width: calc(100% - 120px); /* ancho  */
+    font-size: 18px; /*tamaño de la fuente*/
+    line-height: 24px; /*altura de la línea */
+    font-weight: 400; /*peso de la fuente*/
+}
+
+.TodoItem-p--completed { 
+    text-decoration: line-through; 
+    /* línea en medio del text o tachando */
+    color: #4caf50;
+}
+
+.Icon { /* X ,  ✓ */
+    cursor: pointer; /* cambia el cursor a la manito cuando pasa por el icono. */
+    display: flex; /* pantalla. */
+    justify-content: center;
+    align-items: center;
+    height: 48px; /* altura. */
+    width: 48px; /* ancho. */
+    font-size: 24px ;
+    font-weight: bold; /* peso de la fuente -- negrilla. */
+    
+     /*background-color: #ccc; color de fondo.  opcional */
+}
+
+.Icon-check {
+    position: absolute;
+    left: 12px; /*  ✓ */
+}
+
+.Icon-check--active {
+    color: #4caf50;
+}
+
+.Icon-delete {
+    position: absolute;
+    top: 10px; /* cima, superior */
+    right: 0;
+}
+
+.Icon-delete:hover {
+    color: red;
+}
+
