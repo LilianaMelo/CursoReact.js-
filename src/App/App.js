@@ -13,7 +13,7 @@ import { TodoProvider } from "../Component/TodoContext";
 ];*/
 
 
-function App() { // componente empieza con mayus y son invisibles para html y visibles para react y se usa para renderizar internamente
+function App() { // componente empieza con mayus y son invisibles para html y visibles para react y se usa para renderizar internamente.
 // persitir la informacion con la ultima version de la aplicacion
  
   /*const [patito, savePatito] = useLocalStorage('PATITO_V1', 'FERNANDO'); // se puede guardar*/   

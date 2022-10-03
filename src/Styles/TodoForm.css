@@ -8,9 +8,11 @@ form {
   align-items: center;
   flex-direction: column;
   border-radius: 11px;
+  font-family: 'Helvetica', sans-serif;
 }
 
 label {
+  font-family: 'Helvetica', sans-serif;
   text-align: center;
   font-weight: bold;
   font-size: 20px;
@@ -19,6 +21,7 @@ label {
 }
 
 textarea {
+  font-family: 'Helvetica', sans-serif;
   background-color: #c3e1f0;
   border: 2px solid #3e5481;
   border-radius: 8px;
@@ -34,11 +37,12 @@ textarea {
 textarea::placeholder {
   color: #7c7c7c; /* Color de texto del agregar. */
   font-weight: 400;
-  font-family: 'Arial,Sans-serif';
+  font-family: 'Helvetica', sans-serif;
 }
 
 textarea:focus {
   outline-color: #61DAFA; /* Se resalta el borde cuando el curso esta sobre el cuadro. */
+  color:#2255b4 /*PRUEBA */
 }
 
 .TodoForm-buttonContainer {
@@ -59,7 +63,7 @@ textarea:focus {
   height: 48px; /* altura de los botones */
   border-radius: 4px; /* esquinas de los botones */
   border: none;
-  font-family: 'Arial,Sans-serif';
+  font-family: 'Helvetica', sans-serif;
 }
 
 .TodoForm-button-add {
